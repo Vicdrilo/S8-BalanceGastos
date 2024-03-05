@@ -56,7 +56,7 @@ export function ShowSummary() {
 
   return (
     <div className="bg-orange rounded-2xl flex justify-between h-[100px] items-center">
-      <div className="data-container flex flex-col items-start ms-8">
+      <div className="data-container flex flex-col flex-nowrap items-start ms-8">
         {title()}
       </div>
       <div className="btn-container flex gap-6 me-8">
