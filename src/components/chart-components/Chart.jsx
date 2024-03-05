@@ -80,13 +80,10 @@ export function Chart() {
   };
   return (
     <>
-      <h2 className="text-black text-[1.5rem] mt-4 ms-1 me-1">
+      <h2 className="text-black text-[1.5rem] ms-1 me-1 mb-4">
         <b>{t("showChart.part3")}</b>
       </h2>
-      <div
-        className="w-full h-full flex justify-center items-end pe-3"
-        data-testid="bar-chart"
-      >
+      <div className="w-full h-full pe-3" data-testid="bar-chart">
         <Bar data={data} options={options} />
       </div>
     </>
