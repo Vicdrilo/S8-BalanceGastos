@@ -21,7 +21,7 @@ export function ShowSummary() {
       return (
         <>
           <h1 className="text-sm text-white">{t("showSummary.part1")}</h1>
-          <h1 className="text-[2.5rem] text-white">
+          <h1 className="text-[2rem] text-white">
             <b>{balance} €</b>
           </h1>
         </>
@@ -30,7 +30,7 @@ export function ShowSummary() {
       return (
         <>
           <h1 className="text-sm text-white">{t("showSummary.part2")}</h1>
-          <h1 className="text-[2.5rem] text-white">
+          <h1 className="text-[2rem] text-white">
             <strong>
               {sign}
               {variation} %
