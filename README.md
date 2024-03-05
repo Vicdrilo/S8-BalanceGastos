@@ -74,10 +74,10 @@ Es un proyecto con objetivo de ayudar al usuario a llevar un control de sus gast
 
 ### Built With
 
-- [![React][React.js]][React-url]
-- [![Vitest][Vitest.dev]][Vitest-url]
-- [![Chartjs][Chartjs.org]][Chartjs-url]
-- [![Tailwindcss][Tailwindcss.com]][Tailwindcss-url]
+- React
+- Vitest-url
+- Chartjs-url
+- Tailwindcss-url
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -97,10 +97,6 @@ Esto es un ejemplo de como puedes ejecutar las ordenes para configurar el reposi
 
    ```sh
    npm install
-   ```
-
-   ```
-
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
