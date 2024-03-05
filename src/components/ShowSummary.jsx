@@ -12,10 +12,6 @@ export function ShowSummary() {
       <span className="text-[2.5rem]">
         <b>+</b>
       </span>
-    ) : variation < 0 ? (
-      <span className="text-[2.5rem]">
-        <b>-</b>
-      </span>
     ) : (
       <span className="text-[2.5rem]"></span>
     );
@@ -33,7 +29,7 @@ export function ShowSummary() {
     } else if (chosenOption === "variacio") {
       return (
         <>
-          <h1 className="text-sm text-white">{t("ShowSummary.part2")}</h1>
+          <h1 className="text-sm text-white">{t("showSummary.part2")}</h1>
           <h1 className="text-[2.5rem] text-white">
             <strong>
               {sign}
