@@ -80,7 +80,7 @@ export function Chart() {
   };
   return (
     <>
-      <h2 className="text-black text-[1.75rem] mt-4 ms-1 me-1">
+      <h2 className="text-black text-[1.5rem] mt-4 ms-1 me-1">
         <b>{t("showChart.part3")}</b>
       </h2>
       <div
